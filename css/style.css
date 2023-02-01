@@ -1,24 +1,27 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <h1><b>Hola a Tuti</b></h1>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-     <div class="contenidor"> <!--anidades a dins del contenidor///////////-->
-            <div class="caixa1">
-               
-                <p>caixa 1</p>
-                <a aling="center" class="boton" href="http://www.marcroca.com" target="_blank">botò</a>
-             </div>
-            <div class="caixa2">
-               
-                <p>caixa 2</p>
-            </div>
-             <div class="caixa3">
-               
-                <p>caixa 3</p>
-             </div> <!--acaba la caixa contenidor////////////////-->
-        </div>      
-    </body>
-</html>
+.h1 {
+    text size: 10px;
+    text-align: center; 
+}
+.caixa1{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    float:left;
+  }
+  .caixa2{
+    background-color: rgb(30, 210, 96);
+    width: 300px;
+    height: 300px;
+    float:left;
+  }
+  .caixa3{
+    background-color: rgb(144, 23, 47);
+    width: 300px;
+    height: 300px;
+    float:left;
+  }
+  .contenidor{
+    width: 900px;
+    height: 900px;
+    border:#2e518b 5px dashed;
+  }
